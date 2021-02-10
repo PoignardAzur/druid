@@ -144,7 +144,7 @@ required-features = ["image", "png"]
 
 [[example]]
 name = "invalidation"
-required-features = ["im"]
+required-features = ["im", "default-logger"]
 
 [[example]]
 name = "layout"
@@ -156,7 +156,7 @@ required-features = ["default-logger"]
 
 [[example]]
 name = "list"
-required-features = ["im"]
+required-features = ["im", "default-logger"]
 
 [[example]]
 name = "markdown_preview"
@@ -196,7 +196,7 @@ required-features = ["default-logger"]
 
 [[example]]
 name = "svg"
-required-features = ["svg"]
+required-features = ["svg", "default-logger"]
 
 [[example]]
 name = "switches"
@@ -204,7 +204,7 @@ required-features = ["default-logger"]
 
 [[example]]
 name = "tabs"
-required-features = ["im"]
+required-features = ["im", "default-logger"]
 
 [[example]]
 name = "text"
