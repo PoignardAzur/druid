@@ -540,9 +540,10 @@ impl<T: Data, W: Widget<T>> WidgetPod<T, W> {
                 Event::WindowConnected => (),
                 Event::WindowSize(_) => (),
                 _ => {
+                    // TODO: Make warning more explicit
                     log::warn!(
                         "Widget '{}' received an event ({:?}) without having been laid out. \
-                        This likely indicates a missed call to set_layout_rect.",
+                        This likely indicates a missed call to set_origin.",
                         self.inner.type_name(),
                         event,
                     );
